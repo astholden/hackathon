@@ -43,7 +43,7 @@ body {
     border-radius: 40px;
     margin: 1px;
     padding: 1px;
-    background-image: './bg.png';
+     /* background-image: './bg.png'; */
     background-image: url('assets/bg.png');
     height: 500px;
     width: 250px;
@@ -80,4 +80,8 @@ p {
   display: flex;
   flex-shrink: 1;
   max-width: 150px;
+}
+
+.card-bg {
+  display: none;
 }

@@ -150,8 +150,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const audio = new Audio('assets/Rone - Bye Bye Macadam.mp3');
   audio.loop = true;
+  audio.play();
 
-  body.addEventListener('click', () => {
+  document.querySelector('html').addEventListener('click', () => {
     audio.play();
   });
 });
